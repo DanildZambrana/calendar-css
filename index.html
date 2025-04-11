@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario UI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="calendar-container">
+    <div class="date-display">
+        <div class="day-name" id="selected-day-name">Friday</div>
+        <div class="day-number" id="selected-day-number">18</div>
+        <div class="month-year" id="selected-month-year">September</div>
+        <div class="year-display" id="selected-year-display">2020</div>
+    </div>
+    <div class="calendar">
+        <div class="calendar-header">
+            <div class="month-year-nav">
+                <button id="prev-month">&lt;</button>
+                <span id="current-month">September</span>
+                <button id="next-month">&gt;</button>
+            </div>
+            <div class="month-year-nav">
+                <button id="prev-year">&lt;</button>
+                <span id="current-year">2020</span>
+                <button id="next-year">&gt;</button>
+            </div>
+        </div>
+        <div class="calendar-grid">
+            <div class="day-name">D</div>
+            <div class="day-name">L</div>
+            <div class="day-name">M</div>
+            <div class="day-name">M</div>
+            <div class="day-name">J</div>
+            <div class="day-name">V</div>
+            <div class="day-name">S</div>
+        </div>
+        <div class="calendar-footer">
+            <button class="clear-btn">Clear</button>
+            <div class="action-btns">
+                <button>CANCEL</button>
+                <button>OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
